@@ -18,6 +18,12 @@ class Tile {
     this.southwest = southwest;
     this.northwest = northwest;
   }
+
+  isAndHasNeighborsThatAre(tileType) {
+    return Object.values(this).every((value) => {
+      return value === tileType;
+    })
+  }
 }
 
 module.exports = Tile;
