@@ -1,0 +1,18 @@
+{
+  "name": "roguesea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-react": "^7.14.3",
+    "jest": "^24.9.0"
+  }
+}
